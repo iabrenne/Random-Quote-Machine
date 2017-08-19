@@ -1,0 +1,52 @@
+#body{
+ background-color: #B6FFE9;
+}
+
+#quote-box{
+ position:relative;
+ width:800px;
+ height:600px;
+ background-color:#FFB6C1; 
+ margin: auto; 
+}
+
+#text{
+ position:absolute;
+ left:250px;
+ top:235px;
+ width:300px;
+}
+
+#author{
+ position:absolute;
+ left:425px;
+ top:315px;
+ width:150px;
+ text-align:right;
+}
+
+#buttons{
+ margin-top:25px;
+ display:flex;
+}
+
+#new-quote{
+ margin-right:10px;
+}
+
+/*
+#new-quote{
+  padding: 6px 12px; 
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+}
+*/
+
+/* Debugging CSS to make all DIVs stand out */
+
+/*
+div{
+  border: 10px solid red;
+}*/
