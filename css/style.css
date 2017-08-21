@@ -34,19 +34,35 @@
  margin-right:10px;
 }
 
-/*
-#new-quote{
-  padding: 6px 12px; 
-  border: 1px solid transparent;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 400;
+/* My Ipad - Portrait */
+@media only screen 
+and (max-device-width : 834px)  { 
+
+	#quote-box{
+		width:95vw;	
+	}	
+
+	#coffee-pic{
+		display:block;
+		margin:auto;
+	}
+
+#text {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    width: 30%;
+    font-size: 20px;
 }
-*/
 
-/* Debugging CSS to make all DIVs stand out */
+#author {
+    position: absolute;
+    left: 35%;
+    top: 70%;
+    width: 25%;
+    font-size: 20px;
+    text-align: right;
+}
 
-/*
-div{
-  border: 10px solid red;
-}*/
+}
+
