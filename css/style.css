@@ -66,3 +66,25 @@ and (max-device-width : 834px)  {
 
 }
 
+/* iPhone Plus- Landscape */
+@media only screen 
+and (max-device-width : 736px)  { 
+
+	#quote-box{
+		width:98vw;	
+		height:98vh;
+	}	
+
+	#coffee-pic{
+		max-height:100%;
+		margin:auto;
+	}
+
+div#buttons {
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+}
+
+}
+
