@@ -99,3 +99,45 @@ and (max-device-width : 480px)  {
 
 }
 
+
+/* iPhone 6 Plus - portrait */
+@media only screen 
+and (max-device-width : 414px) and (orientation: portrait) { 
+
+	#coffee-pic{
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+	}
+
+
+	#text {
+		  font-size: 38px;
+		  position: absolute;
+		  top: 10vh;
+		  width: 60%;
+		  left: 20vw;
+		  background-color: #B6FFE9;
+		  text-align: center;
+	}
+
+	#author{
+		top:48vh;
+		left:25vw;
+		font-size:35px;
+		width:35%;
+	}
+
+	div#buttons {
+		  bottom: 15vh;
+		  left: 40vw;
+	}
+
+	.fa-2x {
+		  font-size: 5em;
+	}
+
+	#new-quote {
+		  margin-right: 4vw;
+	}
+}
