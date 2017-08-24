@@ -141,3 +141,19 @@ and (max-device-width : 414px) and (orientation: portrait) {
 		  margin-right: 4vw;
 	}
 }
+
+/* iPhone 5 and 4 - portrait */
+@media only screen 
+and (max-device-width : 320px) and (orientation: portrait) { 
+
+	#text{
+		font-size:42px;
+	}
+
+	#author{
+		font-size:36px;
+	}
+}
+
+
+
